@@ -5,9 +5,6 @@
 </div>
 
 <br>
-
-<p> 👿 <b> Generator Imgur </b> Generate Images directly from https://imgur.com/ </p>
-
 <br>
 
 ## 🤩 Getting started
