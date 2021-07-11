@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0
+}
+
+body {
+    background-color: rgba(49, 12, 94, 0.749);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.control {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.control input, button {
+    margin: 15px;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 20px;
+    transition: 0.4s;
+    box-shadow: 0 0 40px -10px rgb(0, 0, 0);
+}
+
+.control button:hover {
+    background-color: rgb(92, 87, 87);
+    color: white;
+    transform: scale(1.25);
+}
+
+img {
+    display: block;
+    margin-bottom: 15px;
+    width: 300px;
+    border: 2px solid rgb(55, 53, 53);
+    text-align: center;
+    transition: 0.4s;
+}
+
+img:hover {
+    transform: scale(1.80);
+}
+
+#t {
+    font-size: 15px;
+    margin-top: 25px;
+    text-align: center;
+    background-color: beige;
+    color: black;
+    padding: 5px;
+    transition: 0.4s;
+    box-shadow: 0 0 40px -10px rgb(0, 0, 0);
+}
+
+#t:hover {
+    transform: scale(1.80);
+}
+
+a {
+    color: rgb(0, 0, 0);
+}
+
+a:hover {
+    color: rgba(46, 6, 6, 0.671);
+}
+
+p {
+    text-align: center;
+    background-color: rgb(45, 45, 45);
+    padding: 15px;
+    transition: 0.4s;
+}

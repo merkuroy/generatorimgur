@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imgur Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h3>Imgur Image Generator</h3>
+        <p id="t">WARNING<br>This generator displays random images from <a href="https://imgur.com/">Imgur</a>. Many of
+            these images show nudity and other NSFW topics.</p>
+        <div class="control">
+            <input type="number" name="number" id="number" placeholder="Amount">
+            <button onclick="generateImages();">Generate</button>
+        </div>
+        <div id="box-images">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
